@@ -1,0 +1,35 @@
+/**
+ * Theme Name: Hiperderecho
+ * Theme URI: http://www.hiperderecho.org/
+ * Author: Miguel Morachimo
+ * Author URI: http://www.morachimo.com/
+ * Description: Plantilla para Hiperderecho
+ * Version: 0.9
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: white, light, one-column, two-column, right-sidebar, responsive-width, custom-background, custom-menu, editor-style, featured-images, infinite-scroll, post-slider, theme-options, translation-ready, blog, business, craft, magazine, news, productivity, clean, conservative, contemporary, elegant, formal, minimal, modern, professional, simple
+ * Template: basis
+ * Text Domain: basis
+ */
+
+@import url( '../basis/style.css' );
+
+.basis-tagline {
+	display: none !important;
+}
+
+.theme-byline {
+	display: none;
+}
+
+.footer-text {
+	margin-bottom: 10px;
+}
+
+blockquote {
+	border-left: 4px solid #eee;
+	color: #666;
+	margin: 0 18px 18px;
+	padding-left: 10px;
+	font-size: 1em;
+}
