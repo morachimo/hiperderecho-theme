@@ -26,10 +26,30 @@
 	margin-bottom: 10px;
 }
 
-blockquote {
+blockquote p {
 	border-left: 4px solid #eee;
 	color: #666;
 	margin: 0 18px 18px;
 	padding-left: 10px;
 	font-size: 1em;
+}
+
+.feature {
+    color: ##484b50;
+}
+
+@media screen and (min-width: 800px)
+blockquote p {
+	font-size: 1em;
+}
+
+blockquote p:first-child:before, blockquote p:last-child:after {
+  color: #b1b7ba;
+  line-height: 1;
+}
+blockquote p:first-child:before {
+  content: none;
+}
+blockquote p:last-child:after {
+  content: none;
 }
