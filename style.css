@@ -54,6 +54,10 @@ blockquote p:last-child:after {
   content: none;
 }
 
+#basis-header-nav {
+  max-width: 100%;
+}
+
 #basis-header-nav a,
 #basis-header-nav li ul li,
 #basis-header-nav li ul li a {
